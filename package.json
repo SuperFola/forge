@@ -1,6 +1,6 @@
 {
   "name": "small-forge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of functions to generate HTML easily",
   "main": "src/index.js",
   "scripts": {
