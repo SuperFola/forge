@@ -77,7 +77,7 @@ function forgeHierarchy(parent, hierarchy) {
     let previous = null;
 
     for (let node of hierarchy) {
-        if (!Object.isArray(node)) {
+        if (!Array.isArray(node)) {
             parent.appendChild(node);
             previous = node;
         } else {
